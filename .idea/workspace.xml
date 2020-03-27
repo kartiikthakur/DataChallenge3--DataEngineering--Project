@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d6aa4d7b-177e-42fa-bce9-3eeea0d95b16" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="consumer_complaints" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ZbRaddIyjR2Rl2T0k0XCjwSnpj" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunManager" selected="Python.complaints (1)">
+    <configuration name="complaints (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="consumer_complaints" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/complaints.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="complaints" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="consumer_complaints" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/consumer_complaints/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/consumer_complaints/src/complaints.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="consumer_complaints" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/consumer_complaints/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/consumer_complaints/src/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="run.sh" type="ShConfigurationType" temporary="true">
+      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/run.sh" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="INTERPRETER_PATH" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.complaints (1)" />
+        <item itemvalue="Shell Script.run.sh" />
+        <item itemvalue="Python.complaints" />
+        <item itemvalue="Python.test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d6aa4d7b-177e-42fa-bce9-3eeea0d95b16" name="Default Changelist" comment="" />
+      <created>1585105871563</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585105871563</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1585339493712">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1585339493712" />
+    <state width="1259" height="185" key="GridCell.Tab.0.bottom" timestamp="1585344216631">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="185" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1585344216631" />
+    <state width="1259" height="185" key="GridCell.Tab.0.center" timestamp="1585344216631">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="185" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1585344216631" />
+    <state width="1259" height="185" key="GridCell.Tab.0.left" timestamp="1585344216630">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="185" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1585344216630" />
+    <state width="1259" height="185" key="GridCell.Tab.0.right" timestamp="1585344216631">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="185" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1585344216631" />
+    <state width="1259" height="185" key="GridCell.Tab.1.bottom" timestamp="1585344214689">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="185" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1585344214689" />
+    <state width="1259" height="185" key="GridCell.Tab.1.center" timestamp="1585344214689">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="185" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1585344214689" />
+    <state width="1259" height="185" key="GridCell.Tab.1.left" timestamp="1585344214688">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="185" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1585344214688" />
+    <state width="1259" height="185" key="GridCell.Tab.1.right" timestamp="1585344214689">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="185" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1585344214689" />
+    <state x="142" y="0" key="SettingsEditor" timestamp="1585342754060">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1585342754060" />
+    <state width="630" height="320" key="XDebugger.FullValuePopup" timestamp="1585108336167">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="630" height="320" key="XDebugger.FullValuePopup/0.0.1280.680@0.0.1280.680" timestamp="1585108336167" />
+    <state x="337" y="165" key="com.intellij.ide.util.TipDialog" timestamp="1585343066192">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="337" y="165" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1585343066192" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1585113311817">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1585113311817" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/complaints.py</url>
+          <line>98</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
