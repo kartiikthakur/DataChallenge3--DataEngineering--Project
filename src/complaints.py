@@ -25,7 +25,7 @@ def extraction(input_file):
     output_list = []
     unique_product_year = []
     all_product_year = []
-    with open(input_file, encoding='utf-8', newline='') as csvfile:
+    with open(input_file, encoding='utf-8') as csvfile:
         filereader = csv.reader(csvfile)
         firstline = True
         count = 0
