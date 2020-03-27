@@ -97,11 +97,8 @@ def load(rows):
 
 if __name__ == "__main__":
         input_folder, filename, file_extension = input()
-        if file_extension == ".csv":
-            input_csv = os.path.join(input_folder,filename+file_extension)
-            extracted_data, unique_ProductYear, all_ProductYear = extraction(input_csv)
-            transformed_data = transform(extracted_data, unique_ProductYear, all_ProductYear)
-            load(transformed_data)
+        input_csv = os.path.join(input_folder,filename+file_extension)
+        extracted_data, unique_ProductYear, all_ProductYear = extraction(input_csv)
+        transformed_data = transform(extracted_data, unique_ProductYear, all_ProductYear)
+        load(transformed_data)
 
-        else:
-            print("The Uploaded file is not a csv file")
