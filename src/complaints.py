@@ -9,15 +9,17 @@ def listToString(s):
     return str1
 
 def input():
-    input_folder = os.path.abspath('../input')
-    input_folder2 = os.path.abspath('../consumer_complaints/input')
+    input_folder = os.path.abspath('../insight_testsuite/test_1/input')
+    input_folder2 = os.path.abspath('../insight_testsuite/test_1/input')
     try:
-        filename, file_extension = os.path.splitext(os.listdir(input_folder)[0])
-        return input_folder, filename, file_extension
+        # filename, file_extension = os.path.splitext(os.listdir(input_folder)[0])
+        filename = input_folder + '\\complaints.csv'
+        return input_folder, filename
 
     except:
-        filename, file_extension = os.path.splitext(os.listdir(input_folder2)[0])
-        return input_folder2, filename, file_extension
+        # filename, file_extension = os.path.splitext(os.listdir(input_folder2)[0])
+        filename = input_folder2 + '\\complaints.csv'
+        return input_folder2, filename
 
 
 def extraction(input_file):
@@ -80,14 +82,14 @@ def transform(data, unique_lists, all_lists):
 
 
 def load(rows):
-    output_folder = os.path.abspath('../output')
+    output_folder = os.path.abspath('../insight_testsuite/test_1/output')
     output_folder2 = os.path.abspath('../consumer_complaints/output')
     print(output_folder)
     try:
-        output_file = output_folder + '/' + 'report.csv'
+        output_file = output_folder + '\\' + 'report.csv'
         print(output_file)
     except:
-        output_file = output_folder2 + '/' + 'report.csv'
+        output_file = output_folder2 + '\\' + 'report.csv'
         print(output_file)
 
 
@@ -99,8 +101,8 @@ def load(rows):
 
 
 if __name__ == "__main__":
-        input_folder, filename, file_extension = input()
-        input_csv = os.path.join(input_folder,filename+file_extension)
+        input_folder, filename = input()
+        input_csv = os.path.join(input_folder,filename)
         extracted_data, unique_ProductYear, all_ProductYear = extraction(input_csv)
         transformed_data = transform(extracted_data, unique_ProductYear, all_ProductYear)
         load(transformed_data)
