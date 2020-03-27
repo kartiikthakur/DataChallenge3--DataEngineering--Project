@@ -90,6 +90,7 @@ def load(rows):
 
     with open(output_file, 'w') as f:
         for x in rows:
+            print(x)
             f.write(','.join(x) + '\n')
 
     print("Finished writing the report\n")
