@@ -84,9 +84,9 @@ def load(rows):
     output_folder = os.path.abspath('../output')
     output_folder2 = os.path.abspath('../consumer_complaints/output')
     try:
-        output_file = output_folder + '\\' + 'report.csv'
+        output_file = output_folder + '/' + 'report.csv'
     except:
-        output_file = output_folder2 + '\\' + 'report.csv'
+        output_file = output_folder2 + '/' + 'report.csv'
 
     print(output_file)
     with open(output_file, 'w') as f:
