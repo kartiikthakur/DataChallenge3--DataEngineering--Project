@@ -88,9 +88,9 @@ def load(rows):
     except:
         output_file = output_folder2 + '\\' + 'report.csv'
 
+    print(output_file)
     with open(output_file, 'w') as f:
         for x in rows:
-            print(x)
             f.write(','.join(x) + '\n')
 
     print("Finished writing the report\n")
