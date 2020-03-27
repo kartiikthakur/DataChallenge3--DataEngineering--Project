@@ -11,7 +11,6 @@ def listToString(s):
 def input():
     input_folder = os.path.abspath('../input')
     input_folder2 = os.path.abspath('../consumer_complaints/input')
-    print(input_folder)
     try:
         filename, file_extension = os.path.splitext(os.listdir(input_folder)[0])
         return input_folder, filename, file_extension
@@ -83,12 +82,15 @@ def transform(data, unique_lists, all_lists):
 def load(rows):
     output_folder = os.path.abspath('../output')
     output_folder2 = os.path.abspath('../consumer_complaints/output')
+    print(output_folder)
     try:
         output_file = output_folder + '/' + 'report.csv'
+        print(output_file)
     except:
         output_file = output_folder2 + '/' + 'report.csv'
+        print(output_file)
 
-    print(output_file)
+
     with open(output_file, 'w') as f:
         for x in rows:
             f.write(','.join(x) + '\n')
