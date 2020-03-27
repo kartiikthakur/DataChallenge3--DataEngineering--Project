@@ -9,8 +9,10 @@ def listToString(s):
     return str1
 
 def input():
-    input_folder = os.path.abspath('../input')
-    input_folder2 = os.path.abspath('../consumer_complaints/input')
+    # input_folder = os.path.abspath('../input')
+    # input_folder2 = os.path.abspath('../consumer_complaints/input')
+    input_folder = os.path.abspath('../insight_testsuite/tests/test_1/input')
+    input_folder2 = os.path.abspath('../insight_testsuite/tests/test_1/input')
     print(input_folder)
     try:
         filename, file_extension = os.path.splitext(os.listdir(input_folder)[0])
@@ -81,8 +83,10 @@ def transform(data, unique_lists, all_lists):
 
 
 def load(rows):
-    output_folder = os.path.abspath('../output')
-    output_folder2 = os.path.abspath('../consumer_complaints/output')
+    # output_folder = os.path.abspath('../output')
+    # output_folder2 = os.path.abspath('../consumer_complaints/output')
+    output_folder = os.path.abspath('../insight_testsuite/tests/test_1/output')
+    output_folder2 = os.path.abspath('../insight_testsuite/tests/test_1/output')
     try:
         output_file = output_folder + '/' + 'report.csv'
     except:

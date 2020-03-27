@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6aa4d7b-177e-42fa-bce9-3eeea0d95b16" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insight_testsuite/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/insight_testsuite/test_1/input/complaints.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/insight_testsuite/test_1/output/report.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/complaints.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/complaints.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -188,7 +192,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/complaints.py</url>
-          <line>99</line>
+          <line>103</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
