@@ -9,17 +9,16 @@ def listToString(s):
     return str1
 
 def input():
-    input_folder = os.path.abspath('../insight_testsuite/test_1/input')
-    input_folder2 = os.path.abspath('../insight_testsuite/test_1/input')
+    input_folder = os.path.abspath('../input')
+    input_folder2 = os.path.abspath('../consumer_complaints/input')
+    print(input_folder)
     try:
-        # filename, file_extension = os.path.splitext(os.listdir(input_folder)[0])
-        filename = input_folder + '\\complaints.csv'
-        return input_folder, filename
+        filename, file_extension = os.path.splitext(os.listdir(input_folder)[0])
+        return input_folder, filename, file_extension
 
     except:
-        # filename, file_extension = os.path.splitext(os.listdir(input_folder2)[0])
-        filename = input_folder2 + '\\complaints.csv'
-        return input_folder2, filename
+        filename, file_extension = os.path.splitext(os.listdir(input_folder2)[0])
+        return input_folder2, filename, file_extension
 
 
 def extraction(input_file):
@@ -82,17 +81,14 @@ def transform(data, unique_lists, all_lists):
 
 
 def load(rows):
-    output_folder = os.path.abspath('../insight_testsuite/test_1/output')
+    output_folder = os.path.abspath('../output')
     output_folder2 = os.path.abspath('../consumer_complaints/output')
-    print(output_folder)
     try:
         output_file = output_folder + '\\' + 'report.csv'
-        print(output_file)
     except:
         output_file = output_folder2 + '\\' + 'report.csv'
-        print(output_file)
 
-
+    print(output_file)
     with open(output_file, 'w') as f:
         for x in rows:
             f.write(','.join(x) + '\n')
@@ -101,8 +97,8 @@ def load(rows):
 
 
 if __name__ == "__main__":
-        input_folder, filename = input()
-        input_csv = os.path.join(input_folder,filename)
+        input_folder, filename, file_extension = input()
+        input_csv = os.path.join(input_folder,filename+file_extension)
         extracted_data, unique_ProductYear, all_ProductYear = extraction(input_csv)
         transformed_data = transform(extracted_data, unique_ProductYear, all_ProductYear)
         load(transformed_data)
