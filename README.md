@@ -10,6 +10,6 @@ The script written is a simple python3 script which works fine for a million dat
 
 To increase the performance for huge datasets, we can:
 1. Write a multi threaded version of the current python script
-2. Execute the script in a cloud service which has an pre set infrastructure and which can be automatically scalable based on the size of the input
-3. Dump the input complaints in the Hadoop Distributed File System and can perform the transformation using a Map Reduce, Hive or Pig.
-4. Create a Spark version of the same python script using PySpark library which creates the resilient distributed datasets.
+1. Execute the script in a cloud service which has a pre set infrastructure and which can be automatically scalable based on the size of the input
+1. Dump the input complaints in the Hadoop Distributed File System and can perform the transformation using a Map Reduce, Hive or Pig.
+1. Create a Spark version of the same python script using PySpark library which creates the resilient distributed datasets.
