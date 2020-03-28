@@ -18,4 +18,7 @@ I have tested the program on the dataset with around 1.5 Million data rows and i
 
 The program can be executed by directly running the ./src/complaints.py file or using a bash command. The command for the bash is mentioned in the "run.sh" shell script.
 
+If there are multiple complaints file in the input folder then those files can be iterated and the corresponding output can be written in report1.csv, report2.csv . . 
+
+
 Comments have been added in the complaints.py file whereever required.
