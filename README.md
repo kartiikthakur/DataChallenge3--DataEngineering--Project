@@ -14,7 +14,8 @@ To increase the performance for huge datasets, we can:
 1. Dump the input complaints in the Hadoop Distributed File System and can perform the transformation using a Map Reduce, Hive or Pig.
 1. Create a Spark version of the same python script using PySpark library which creates the resilient distributed datasets.
 
-I have tested the program on the dataset with around 1.5 Million data rows and it works perfctly fine without any error. 
+I have tested the program on the dataset with around 1.5 Million data rows and it works perfctly fine without any error. The output for this data with 1.5 million data is uploaded in the "insight_testsuite/tests/myown_test/output/report.csv" location. I couldn't add the input file because of the size restriction from the github.
+
 The program can be executed by directly running the ./src/complaints.py file or using a bash command. The command for the bash is mentioned in the "run.sh" shell script.
 
 Comments have been added in the complaints.py file whereever required.
