@@ -24,4 +24,4 @@ The program can be executed by directly running the ./src/complaints.py file or 
 Example: python3.7 ./src/consumer_complaints.py ./input/consumer_complaints.csv ./output/report.csv
 
 
-Comments have been added in the complaints.py file whereever required.
+Comments have been added in the complaints.py file where ever required.
