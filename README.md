@@ -1,4 +1,4 @@
-# Insights Data Engineering Challenge
+# Data Engineering Challenge
 
 ## Consumer Complaints
 All the source code is in the src/complaints.py file.
