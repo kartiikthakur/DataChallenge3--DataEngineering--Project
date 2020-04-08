@@ -1,7 +1,7 @@
 """
 Author: Kartik Singh Thakur
 Date: 3/27/2020
-Insight Data Engineering Challenge
+Data Engineering Challenge
 """
 
 import os
